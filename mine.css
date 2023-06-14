@@ -21,3 +21,31 @@
     justify-content: center;
     margin: 0 10px;
 }
+nav{
+    position: fixed;
+    
+    top:18px;
+}
+.navbar{
+    position: fixed;
+    background: grey;
+    width: 100%;
+    margin-top: -2%;
+    
+}
+
+.navbarnav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+.navitem{
+    display: inline;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px 0px 0px 20px;
+padding-top:5%;
+
+}
