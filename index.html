@@ -1,193 +1,297 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mine portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="mine.css">
+    <title>travel landing page</title>
+    <link rel="stylesheet" href="travel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
+
 <body>
-    <nav class="navbar ">
-        <div class="container">
-            <img src="image/me.jpg" alt="jadeera boltoski" width="50" height="40"
-                class="d-inline-block align-text-top" style="border-radius: 50%;">
-
-            <ul class="navbarnav">
-                <li class="navitem">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-
-                <li class="navitem">
-                    <a class="nav-link " href="#resume">Resume</a>
-                </li>
-                <li class="navitem">
-                    <a class="nav-link " href="#project">Project</a>
-                </li>
-                <li class="navitem">
-                    <a class="nav-link " href="#contactt">Contact</a>
-                </li>
-            </ul>
+    <div class="roww" style="background-color: rgb(22, 22, 81); border-top-left-radius: 12px; border-top-right-radius: 12px; position: fixed; width: 100%;" >
+        <div class="col" style="margin-left: 10%;">
+            <H3  style="padding: 3%; color: white; ">TRAVEL AGENCY</H3>
         </div>
+        <div class="col" style="color: white; padding-left: 40%; ">
 
+            <div class="row" style="margin-top: 2%; padding-left: 1%;">
+                <div class="col" style="padding-top: 1%;">
+                    <p style="font-size: 60%;"><i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;FIND US</p>
+                </div>
+                <div class=" col">
+                    <form style="margin-left:-48%;;">
+                        <input class=" form-control" list="datalistOptions" id="exampleDataList"
+                            placeholder="search&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+                            style="width: 150px; height: 29px;">
+                        <datalist id="datalistOptions">
+                            <option value="San Francisco">
+                            <option value="New York">
+                            <option value="Seattle">
+                            <option value="Los Angeles">
+                            <option value="Chicago">
+                        </datalist>
+                    </form>
+                </div>
+            </div>
+
+            <center>
+                <h6 style="font-size: 90%;">CALL US TROLL FREE- 1-800-987-9898</h6>
+            </center>
+        </div>
+    </div>
+
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top md" style="margin-top: 4.5% ; ">
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" style="padding-left: 0%;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home"
+                            style="font-family: Arial, Helvetica, sans-serif;">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#offers" style="font-family: Arial, Helvetica, sans-serif;">OFFERS</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-family: Arial, Helvetica, sans-serif;" href="#choose-us">WHY?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-family: Arial, Helvetica, sans-serif;" href="#about-us">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-family: Arial, Helvetica, sans-serif;" href="#contact">CONTACT US</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <section style="margin: 10%;">
-        <div class="row">
-            <div class="col-6">
-                <img src="image/me.jpg" alt="no image" style="height: 90%; border-radius: 50%; width: 70%; margin-left: 140px; " >
-            </div>
-            <div class="col-6">
-                <h1>Hello!</h1>
-                <h4>A Bit About Me...</h4>
-                <p style="text-align: justify; color: rgb(161, 157, 157);">hey, i am jadeera boltoski and i am completed my under <br> graduation at lissah college kaithapoyil in bachelorof <br> computer science.I am an excellent team worker and am able <br> to take instructions from all levels and build up good <br>   working relationships with all colleagues.</p>
-                <section id="contact">
-        
-                    <!-- icons -->
-                    <div class="icondiv">
-                        <div class="icon" style="background-color: rgb(219, 138, 25);">
-                            <a href="#resume" style="text-decoration: none; color: black;"><h4>Resume</h4></a>
-                        </div>
-                        <div class="icon" style="background-color: rgb(167, 59, 27);">
-                            <a href="#project" style="text-decoration: none; color: black;"><h4>Project</h4></a>
-                        </div>
-                        <div class="icon" style="background-color: rgb(43, 107, 116);">
-                           <a href="#contactt" style="text-decoration: none; color: black;"> <h4>Contact</h4 ></a>
-                        </div>
-            
-            
-                        
-            
-            
-                    </div>
-                </section>
-                
+    <div id="home" style="background-image: url(image/first.jpg);">
 
-            </div>
-        </div>
-    </section><hr>
-    <section id="resume">
-        <div class="row" style="margin-left: 10%; margin-top:5%;">
-            <h1 style="text-align: left;"><b>Resume</b></h1>
-            <hr><br><br><br>
-            <div class="col-6">
-                <h3>Education</h3>
-            </div>
-            <div class="col-6">
-                <div>
-                    <h6><B>SSLC</B></h6>
-                    <p>GVHSS PAYYOLI JUN <br> 2016-MAR 2018</p>
-                </div><br>
-                <DIV>
-                    <h6><B>PLUS TWO</B></h6>
-                    <p>KUNJALI MARAKKAR HIGHER SECONDARY SCHOOL VADAKARA <br> JUN 2018-MAR 2020</p>
-                </DIV><br>
-                <div>
-                    <h6><B>UNDER GRADUATION</B></h6>
-                    <p>LITTILE FLOWER INSTITUTE OF SOCIAL SCIENCE AND HEALTH KAITHAPOYIL<br> JUN 2018-MAR 2020</p>
+        <center style="padding-top: 19%;">
+            <h4>LET US TAKE YOU TO YOUR</h4>
+            <H1><B>DREAM DESTINATIONS</B></H1>
+
+        </center>
+        <center>
+            <div class="roww" style="margin-left: 19%; padding:1% 15% 21% 15%;;">
+                <div class="col" style="margin-right: -23%; height: 50%; width: 60%;">
+                    <input class=" form-control" list="datalist" id="exampleDataList" placeholder="ASIA"
+                        style="width: 50%; border-radius: 0%; height: 5%;">
+                    <datalist id="datalist">
+                        <option value="South ">
+                        <option value="Southeastern ">
+                        <option value="Central ">
+                        <option value="East ">
+                        <option value="Western ">
+                    </datalist>
                 </div>
-            </div><br><br>
-            <hr><br><br>
-            <div class="col-6">
-                <h3>Skills</h3>
+                <div class="col" style="margin-right: -11%;  height: 50%; width: 50%;">
+                    <input class=" form-control" list="datalistsecond" id="exampleDataList" placeholder="COUNTRIES"
+                        style="width: 50%; border-radius: 0%; height: 5%;">
+                    <datalist id="datalistsecond">
+                        <option value="Brazil">
+                        <option value="China">
+                        <option value="India">
+                        <option value="Mexico">
+                        <option value="South Africa">
+                    </datalist>
+                </div>
+                <div class="col" style="margin-left: -7%;  height: 50%; width: 60%;">
+                    <input class=" form-control" list="datalistthird" id="exampleDataList" placeholder="BUDGET"
+                        style="width: 50%; border-radius: 0%; height: 5%;">
+                    <datalist id="datalistthird">
+                        <option value="BELOW 10000">
+                        <option value="ABOVE 10000">
+                        <option value="1 LACK">
+                        <option value="5000">
+                        <option value="20000">
+                    </datalist>
+                </div>
+                <div class="col">
+                    <input type="button"
+                        style="background-color: rgb(207, 142, 13); margin-left: -140%;  height: 99%; width: 60%; border:none;"
+                        value="FIND YOUR TOURS">
+                </div>
             </div>
-            <div class="col-6">
-                <div>
-                    <p>-Problem solving <br>-Leadership quality <br>-propper communication <br>-web development <br>-video
-                        editing
-                    </p>
-    
-                </div><br><br>
-    
-            </div>
-    
-        </div><hr><br>
-    </section>
+        </center>
+
+    </div>
 
 
-    <section id="project">
-        <div class="row" style="margin-left: 10%; margin-top:5%;">
-            <h1 style="text-align: left;"><b>Projects</b></h1>
-            <hr><br><br>
-            <div class="col-6">
-                <h3>cleaning application</h3><br>
-                <p style="text-align: justify;">Cleaning Application, this application is mainly focused on providing
-                    various Cleaning services for rooms
-                    ,building's, offices, houses , includes outdoor and indoor cleaning services.the app plays as a agent
-                    ,it connects clients and app providing services .apart from this the application will also provides some
-                    other services like house maids, machine cleaners, postnatal  helpers, baby caregiver ,pet caretaker. 
-    
-                    The main advantage of this application those who are interested in doing this services, they can also
-                    register this type of job through this application.The application will be helps to seek job
-                    opportunities for unemployed individuals.
-    
-                    Nowadays, people face more difficulties in searching services like this. Therefore the application  will
-                    be a great solution.The application put forward  servants or services very quickly and easily 
-                    whenever clients need.</p>
-            </div>
-            <div class="col-6">
-                <img src="image/cleanserok.jpg" alt="no image" style="width: 80%; height: 60%; border-radius: 50%;">
-            </div>
-        </div>
-    </section>
-    <section id="contactt">
-        <div class="row" style="margin-left: 10%; margin-top:10%;">
-            <h1 style="text-align: left;"><b>Contact</b></h1>
-            <p>
-                Looking forward to hearing from you</p>
-            <div class="col-6">
-                <div>
-                    <h6><B>PHONE</B></h6>
-                    <p>123-456-7890</p>
-                </div><br>
-                <DIV>
-                    <h6><B>EMIL-ID</B></h6>
-                    <p>jadeera@gmail.com</p>
-                </DIV><br>
-    
-            </div>
-            <div class="col-6">
-                <i class="fa-solid fa-heart fa-beat-fade fa-10x" style="margin-top: -10%;"></i> 
-            </div>
-    
-    
-    
-        </div><br><br><br>
-        <hr>
-    </section>
-    <footer>
-        <div class="row" style=" margin-left: 35px; margin-right: 35px;">
-            <div class="col-3">
-                        <h6><b>Phone</b></h6>
-                        <h6>
-                            123-456-7890
-                        </h6>
-                    </div>
-                    <div class="col-3">
-                        <h6><b>Email</b></h6>
-                        <h6>
-                            jadeera@gmail.com
-                        </h6>
-                    </div>
-                    <div class="col-3">
-                        <h6><b>Follow me</b></h6>
-                        <h6>
-                            <a href="https://www.instagram.com/accounts/login/" style="color: black;"><i class="fa-brands fa-instagram"></i></a>
-                        </h6>
-                    </div>
-                    <div class="col-3">
-                        <p>© 2035 By Nicol Rider.
-                            Powered and secured by Wix</p>
-                       
+    <div id="offers">
+        <CENTER style="padding-top: 10%;">
+            <h2><b>BEST OFFERS</b></h2>
+            <H6 style="font-size: 90%; font-family: Arial, Helvetica, sans-serif;">CHECK OUT OUR TOP-RATED TOURS</H6>
+
+        </CENTER>
+        <div class="row" style="margin: 5% 5% 5% 10%;  ">
+            <div class="col-4">
+                <div class="card" style="width: 18rem; border-radius: 0%; border: none;position:static;">
+                    <img src="image/uk.jpg" class="card-img-top" alt="no image">
+                    <div class="card-body">
+                        <p class="card-text" style="color: rgb(178, 174, 174);">UNITED KINGDOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$10000
+                        </p>
                     </div>
                 </div>
-    </footer>
 
-   
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem; border-radius: 0%; border: none;position:static;">
+                    <img src="image/turkey.jpg" class="card-img-top" alt="no image">
+                    <div class="card-body">
+                        <p class="card-text" style="color: rgb(178, 174, 174);">
+                            TURKEY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$20000
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem; border-radius: 0%; border: none; position:static;">
+                    <img src="image/spain.jpg" class="card-img-top" alt="no image">
+                    <div class="card-body">
+                        <p class="card-text" style="color: rgb(178, 174, 174);">
+                            SPAIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$2000
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin: 5% 5% 5% 10%;">
+            <div class="col-4">
+                <div class="card" style="width: 18rem; border-radius: 0%; border: none; position:static;">
+                    <img src="image/italy.jpg" class="card-img-top" alt="no image">
+                    <div class="card-body">
+                        <p class="card-text" style="color: rgb(178, 174, 174);">
+                            ITALY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$5000
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem; border-radius: 0%; border: none; position:static;">
+                    <img src="image/japan.jpg" class="card-img-top" alt="no image">
+                    <div class="card-body">
+                        <p class="card-text" style="color: rgb(178, 174, 174);">
+                            JAPAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$10000
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem; border-radius: 0%; border: none; position:static;">
+                    <img src="image/india.jpg" class="card-img-top" alt="no image">
+                    <div class="card-body">
+                        <p class="card-text" style="color: rgb(178, 174, 174);">
+                            INDIA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$20000
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="choose-us" style="background-image: url(image/mainn.jpg); padding: 10%;">
+
+            <center>
+                <h2 style="font-family: Arial, Helvetica, sans-serif; padding-bottom: 5%; color: white;">WHY CHOOSE US?
+                </h2>
+
+                <div class="row" style="background-color: bisque;">
+                    <div class="col-4" style="padding: 5%; co">
+                        <i class="fa-solid fa-business-time fa-4x"></i>
+                        <h5>AFFORDABLE PRICE GUARANTEE</h5>
+                        <p class="para">All the Lorem Ipsum generators on the Internet to repeat predefined chunks as
+                            necessary, making
+                            this the first truegenerator.</p>
+                    </div>
+                    <div class="col-4" style="padding: 5%;">
+                        <i class="fa-sharp fa-solid fa-earth-americas fa-4x"></i>
+                        <h5> WIDE VARIETY OF DESTINATIONS</h5>
+                        <p class="para">
+                            All the Lorem Ipsum generators on the Internet to repeat predefined chunks as necessary,
+                            making this
+                            the first truegenerator.
+                        </p>
+                    </div>
+                    <div class="col-4" style="padding: 5%;">
+                        <i class="fa-regular fa-thumbs-up fa-4x"></i>
+                        <h5>HIGHLY QUALIFIED SERVICE</h5>
+                        <p class="para">
+                            All the Lorem Ipsum generators on the Internet to repeat predefined chunks as necessary,
+                            making this
+                            the first truegenerator
+                        </p>
+                    </div>
+                </div>
+            </center>
+        </div>
+
+
+        <div id="about-us" style="padding: 10%;">
+
+            <center>
+                <h2 style="font-family: Arial, Helvetica, sans-serif;">TESTIMONIALS</h2>
+                <H6 style="font-size: 90%; font-family: Arial, Helvetica, sans-serif;">WHAT OUR CUSTOMERS SAY ABOUT US
+                </H6>
+
+                <div class="row">
+                    <div class="col-4" style="padding: 5%; ">
+                        <i class="fa-sharp fa-solid fa-quote-left fa-4x"></i>
+                        <h5>AFFORDABLE PRICE GUARANTEE</h5>
+                        <p class="para">All the Lorem Ipsum generators on the Internet to repeat predefined chunks as necessary, making this the first true generator on the Inter.
+                            JOHN SMITH</p>
+                    </div>
+                    <div class="col-4" style="padding: 5%;">
+                        <i class="fa-sharp fa-solid fa-quote-left fa-4x"></i>
+                        <h5> WIDE VARIETY OF DESTINATIONS</h5>
+                        <p class="para">
+                            All the Lorem Ipsum generators on the Internet to repeat predefined chunks as necessary, making this the first true generator on the Inter.
+SUSAN HILL
+                        </p>
+                    </div>
+                    <div class="col-4" style="padding: 5%;">
+                        <i class="fa-sharp fa-solid fa-quote-left fa-4x"></i>
+                        <h5>HIGHLY QUALIFIED SERVICE</h5>
+                        <p class="para">
+                            All the Lorem Ipsum generators on the Internet to repeat predefined chunks as necessary, making this the first true generator on the Inter.
+DAVID WILLIAMS
+                        </p>
+                    </div>
+                </div>
+            </center>
+        </div>
+
+        <footer style="background-color:  rgb(22, 22, 81); border-bottom-left-radius: 12px; border-bottom-right-radius: 12px;" id="contact">
+            <center style="color: white; "><p>Privacy Policy | Terms of Use | Contact Support Copyright © domainname.com. All Rights Reserved | Designed by: buylandingpagedesign.com</p>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i></center>
+             
+        </footer>
+
+    </div>
+
 </body>
+
+
+
 </html>
